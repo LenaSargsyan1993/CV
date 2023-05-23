@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: grey;
+    --text-color: #000000;
+}
+html {
+    font-size: 11px;
+}
+body {
+    font-family: Inter, sans-serif;
+   
+}
+.description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 2rem;
+    background: white;
+}
+.profile{
+    grid-column: 1/ -1;
+}
+.group_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.education_list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 1;
+}
+
+.certification_list {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    line-height: 1;
+}
+.Work_Experience {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    line-height: 1;
+}
+.Languages {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    line-height: 1;
+}
